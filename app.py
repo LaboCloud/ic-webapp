@@ -38,7 +38,7 @@ if __name__ == "__main__":
         ODOO_URL = ODOO_URL
     else:
         print("No command line argument or environment variable. Picking a Random url =")
-        ODOO_URL="https://www.youtube.com/"
+        ODOO_URL="https://blog.acloud.digital/"
   
     if args.pgadmin_url:
         print("Pgadmin Url from command line argument =" + args.odoo_url)
@@ -50,7 +50,7 @@ if __name__ == "__main__":
         PGADMIN_URL = PGADMIN_URL
     else:
         print("No command line argument or environment variable. Picking a Random url =")
-        PGADMIN_URL="https://www.youtube.com/"
+        PGADMIN_URL="https://blog.acloud.digital/"
 
     # Run Flask Application
     app.run(host="0.0.0.0", port=8080)
